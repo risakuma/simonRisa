@@ -8,7 +8,6 @@ public class SimonGameRisa extends GUIApplication {
 		// TODO Auto-generated constructor stub
 	}
 
-	@Override
 	protected void initScreen() {
 		SimonScreenRisa simon = new SimonScreenRisa(getWidth(), getHeight());
 		setScreen(simon);
