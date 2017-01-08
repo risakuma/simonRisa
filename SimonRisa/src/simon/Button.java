@@ -5,9 +5,9 @@ import java.awt.image.BufferedImage;
 
 import guiPractice.components.Action;
 
-public class ButtonRisa implements ButtonInterfaceRisa {
+public class Button implements ButtonInterfaceRisa {
 
-	public ButtonRisa() {
+	public Button() {
 		// TODO Auto-generated constructor stub
 	}
 

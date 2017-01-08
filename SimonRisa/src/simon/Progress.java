@@ -2,9 +2,9 @@ package simon;
 
 import java.awt.image.BufferedImage;
 
-public class ProgressRisa implements ProgressInterfaceRisa {
+public class Progress implements ProgressInterfaceRisa {
 
-	public ProgressRisa() {
+	public Progress() {
 		// TODO Auto-generated constructor stub
 	}
 

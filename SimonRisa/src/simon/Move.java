@@ -1,8 +1,8 @@
 package simon;
 
-public class MoveRisa implements MoveInterfaceRisa {
+public class Move implements MoveInterfaceRisa {
 
-	public MoveRisa() {
+	public Move() {
 		// TODO Auto-generated constructor stub
 	}
 
