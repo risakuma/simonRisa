@@ -103,7 +103,7 @@ public class SimonScreenRisa extends ClickableScreen implements Runnable {
 		
 		lastSelectedButton = indx;
 		
-		return MoveRisa(button[indx]);
+		return Move(button[indx]);
 	}
 
 	private ProgressInterfaceRisa getProgress() {
