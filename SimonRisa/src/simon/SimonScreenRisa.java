@@ -60,7 +60,7 @@ public class SimonScreenRisa extends ClickableScreen implements Runnable {
 			b = seq.getButton();
 			b.highlight();
 			
-			int sleepTime = ;//create equation depending on roundNumber
+			int sleepTime = 800;//create equation depending on roundNumber
 			
 			try {
 				Thread.sleep(sleepTime);

@@ -2,16 +2,18 @@ package simon;
 
 import java.awt.Color;
 import java.awt.Graphics2D;
+import java.awt.RenderingHints;
 
 import guiPractice.components.Action;
 import guiPractice.components.Component;
 
 public class Button extends Component implements ButtonInterfaceRisa {
-	
+	private int width = 40;
+	private int height = 40;
 	private Action action;
 	private Color colour;
-	private Color setColour;
-	private boolean highlight;
+	private Color hue;
+	private boolean lit;
 	
 	public Button(int x, int y, int w, int h) {
 		super(x, y, w, h);
@@ -38,25 +40,34 @@ public class Button extends Component implements ButtonInterfaceRisa {
 
 	@Override
 	public void setAction(Action a) {
-		this.action = action;
+		this.action = a;
 
 	}
 
 	@Override
 	public void highlight() {
-		
+		if(colour!= null){
+			hue = colour;
+			lit = true;
+		}
 
 	}
 
 	@Override
 	public void dim() {
-		// TODO Auto-generated method stub
+		colour = Color.gray;
 
 	}
 
 	@Override
 	public void update(Graphics2D g) {
-		// TODO Auto-generated method stub
+		g.setRenderingHint(RenderingHints.KEY_ANTIALIASING,
+				RenderingHints.VALUE_ANTIALIAS_ON);
+		g.setColor(Color.white);
+		g.fillRect(0, 0, getWidth(), getHeight());
+		g.setColor(Color.black);
+		g.drawOval( 10 , 20 , width, height); // just random numbers atm
+
 
 	}
 
