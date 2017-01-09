@@ -10,7 +10,7 @@ public class Button extends Component implements ButtonInterfaceRisa {
 	
 	private Action action;
 	private Color colour;
-	private color setColour;
+	private Color setColour;
 	private boolean highlight;
 	
 	public Button(int x, int y, int w, int h) {
