@@ -1,6 +1,8 @@
 package simon;
 
+import java.awt.Color;
 import java.awt.Graphics2D;
+import java.awt.RenderingHints;
 
 import guiPractice.components.Component;
 
@@ -35,7 +37,7 @@ public class Progress extends Component implements ProgressInterfaceRisa {
 		g.setRenderingHint(RenderingHints.KEY_ANTIALIASING,
 				RenderingHints.VALUE_ANTIALIAS_ON);
 		g.setColor(Color.white);
-		g.fillRect(0, 0, width, height);
+		g.fillRect(0, 0, getWidth(), getHeight());
 		g.setColor(Color.black);
 		if(gameOver){
 			
