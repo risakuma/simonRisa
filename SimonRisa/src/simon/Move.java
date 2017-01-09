@@ -8,7 +8,7 @@ public class Move implements MoveInterfaceRisa {
 	}
 	@Override
 	public ButtonInterfaceRisa getButton() {
-		// TODO Auto-generated method stub
+		
 		return button;
 	}
 
