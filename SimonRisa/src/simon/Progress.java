@@ -37,7 +37,7 @@ public class Progress extends Component implements ProgressInterfaceRisa {
 		update();
 
 	}
-
+//s
 	@Override
 	public void update(Graphics2D g) {
 		g.setRenderingHint(RenderingHints.KEY_ANTIALIASING,

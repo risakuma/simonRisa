@@ -58,7 +58,7 @@ public class Button extends Component implements ButtonInterfaceRisa {
 		colour = Color.gray;
 
 	}
-
+//s
 	@Override
 	public void update(Graphics2D g) {
 		g.setRenderingHint(RenderingHints.KEY_ANTIALIASING,
