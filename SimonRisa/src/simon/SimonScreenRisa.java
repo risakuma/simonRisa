@@ -83,7 +83,7 @@ public class SimonScreenRisa extends ClickableScreen implements Runnable {
 
 	@Override
 	public void initAllObjects(List<Visible> viewObjects) {
-		addButtons(viewObjects);
+		addButtons();
 		progress = getProgress();
 		label = new TextLabel(130,230,300,40,"Let's play Simon!");
 		sequence = new ArrayList<MoveInterfaceRisa>();
@@ -111,7 +111,7 @@ public class SimonScreenRisa extends ClickableScreen implements Runnable {
 		return null;
 	}
 
-	private void addButtons(List<Visible> viewObjects) {
+	private void addButtons() {
 		int numOfButtons = 5;
 		Color[] buttonColor = {Color.red, Color.blue, Color.yellow, Color.green, Color.orange};
 		
