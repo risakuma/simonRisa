@@ -7,7 +7,12 @@ import guiPractice.components.Action;
 import guiPractice.components.Component;
 
 public class Button extends Component implements ButtonInterfaceRisa {
-
+	
+	private Action action;
+	private Color colour;
+	private color setColour;
+	private boolean highlight;
+	
 	public Button(int x, int y, int w, int h) {
 		super(x, y, w, h);
 		// TODO Auto-generated constructor stub
@@ -15,31 +20,31 @@ public class Button extends Component implements ButtonInterfaceRisa {
 
 	@Override
 	public void act() {
-		// TODO Auto-generated method stub
+		action.act();
 
 	}
 
 	@Override
-	public boolean isHovered(int arg0, int arg1) {
+	public boolean isHovered(int x, int y) {
 		// TODO Auto-generated method stub
 		return false;
 	}
 
 	@Override
 	public void setColor(Color color) {
-		// TODO Auto-generated method stub
+		this.colour = color;
 
 	}
 
 	@Override
 	public void setAction(Action a) {
-		// TODO Auto-generated method stub
+		this.action = action;
 
 	}
 
 	@Override
 	public void highlight() {
-		// TODO Auto-generated method stub
+		
 
 	}
 
