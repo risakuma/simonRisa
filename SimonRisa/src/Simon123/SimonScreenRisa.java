@@ -104,11 +104,6 @@ public class SimonScreenRisa extends ClickableScreen implements Runnable{
 		return new Button();
 	}
 
-	
-	public void gameOver() {
-		progress.gameOver();
-	}
-
 	private void addButtons(){
 		int numberOfButtons = 6;
 		int[][] coords = {{140,150}, {220,150}, {300,150}, {140,230}, {220,230}, {300,230}};

@@ -20,15 +20,13 @@ public class Progress extends Component implements ProgressInterfaceRisa {
 		super(60,60,WIDTH,HEIGHT);
 	}
 
-
-
 	public void setRound(int roundNumber) {
-		round = "Round "+roundNumber;
+		round = "Round: "+roundNumber;
 		update();
 	}
 
 	public void setSequenceSize(int size) {
-		sequence = "Sequence length "+size;
+		sequence = "Sequence: "+size;
 		update();
 	}
 
@@ -36,8 +34,6 @@ public class Progress extends Component implements ProgressInterfaceRisa {
 		gameOver = true;
 		update();
 	}
-
-
 
 	@Override
 	public void update(Graphics2D g) {

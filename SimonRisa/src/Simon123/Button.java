@@ -61,20 +61,5 @@ public class Button extends Component implements ButtonInterfaceRisa {
 		g.setColor(Color.black);
 		g.drawOval(0, 0, WIDTH-1, HEIGHT-1);		
 	}
-
-	
-	private String name;
-	public void setName(String s){
-		this.name = s;
-	}
-	
-	public String toString(){
-		return name;
-	}
-
-
-	public ButtonInterfaceRisa getAButton() {
-		return null;
-	}
 	
 }
