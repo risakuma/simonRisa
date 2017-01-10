@@ -1,4 +1,4 @@
-package simon;
+package Simon123;
 
 public interface MoveInterfaceRisa {
 
