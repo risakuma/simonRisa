@@ -15,7 +15,7 @@ public class SimonGameRisa extends GUIApplication {
 	}
 
 	public static void main(String[] args) {
-		SimonGameRisa game = new SimonGameRisa(1000, 1000);
+		SimonGameRisa game = new SimonGameRisa(500, 1000);
 		Thread app = new Thread(game);
 		app.start();
 	}

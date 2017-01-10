@@ -10,14 +10,14 @@ import guiPractice.components.Component;
 public class Progress extends Component implements ProgressInterfaceRisa {
 
 	private static final int WIDTH = 120;
-	private static final int HEIGHT = 50;
+	private static final int HEIGHT = 75;
 
 	private boolean gameOver;
 	private String round;
 	private String sequence;
 
 	public Progress() {
-		super(200,60,WIDTH,HEIGHT);
+		super(60,60,WIDTH,HEIGHT);
 	}
 
 

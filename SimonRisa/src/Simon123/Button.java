@@ -59,11 +59,7 @@ public class Button extends Component implements ButtonInterfaceRisa {
 		else g.setColor(Color.gray);
 		g.fillOval(0, 0, WIDTH, HEIGHT);
 		g.setColor(Color.black);
-		g.drawOval(0, 0, WIDTH-1, HEIGHT-1);
-		if(highlight){
-
-		}
-		
+		g.drawOval(0, 0, WIDTH-1, HEIGHT-1);		
 	}
 
 	
